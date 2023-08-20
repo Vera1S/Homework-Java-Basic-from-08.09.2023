@@ -58,11 +58,11 @@ public class MathQuizSort {
                         result = Calculator.subtract(num1, num2);
                         break;
                     case 2:
-                        System.out.print("Вопрос " + j + ": " + num1 + " * " + num2 + " = ");
+                        System.out.print("Вопрос " + (j + 1) + ": " + num1 + " * " + num2 + " = ");
                         result = Calculator.multiply(num1, num2);
                         break;
                     default:
-                        System.out.print("Вопрос " + j + ": " + num1 + " / " + num2 + " = ");
+                        System.out.print("Вопрос " + (j + 1) + ": " + num1 + " / " + num2 + " = ");
                         // Avoid division by zero;
                         // Избегайте деления на ноль
                         if (num1 == 0) {
